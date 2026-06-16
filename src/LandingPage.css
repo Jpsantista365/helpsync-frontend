@@ -1,0 +1,37 @@
+/* LandingPage.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.navbar nav a:hover {
+  color: #a855f7 !important; /* Um tom de roxo para o hover */
+  transition: 0.3s;
+}
+
+.hero {
+  /* Fundo gradiente puxando para o roxo escuro, lembrando a paleta do projeto */
+  background: linear-gradient(135deg, #1a103c 0%, #2b1055 100%); 
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
