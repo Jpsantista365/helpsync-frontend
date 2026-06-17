@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import LoginPage from './LoginPage';
-import Dashboard from './Dashboard'; // <-- Importar o novo ecrã
+import Dashboard from './Dashboard'; 
 
 function App() {
   return (
